@@ -23,3 +23,7 @@ sd_value <- sd(random_numbers)
 print(sd_value)
 ```
 
+```{r}
+print(paste("The Mean is", mean_value, "and the Standard Deviation is", sd_value))
+```
+

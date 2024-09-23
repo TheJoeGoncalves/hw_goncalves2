@@ -1,0 +1,15 @@
+---
+title: "goncalves_HW"
+author: "Joseph Goncalves"
+date: "2024-09-23"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+random_numbers <- rnorm(100, mean = 25, sd = 1)
+print (random_numbers)
+```
